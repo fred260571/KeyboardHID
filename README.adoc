@@ -1,0 +1,39 @@
+= HID Keyboard Library for Arduino =
+
+This library allows an Arduino board with USB capabilites to act as a USB HID Keyboard.
+
+See page 53 of pdf "HID Usage Tables 1.12" to have HID codes
+https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf
+
+For more information about the original Keyboard library please visit
+http://www.arduino.cc/en/Reference/Keyboard
+
+== limitations ==
+
+This library is a modification of the Keyboard Library for Arduino
+https://github.com/arduino-libraries/Keyboard
+
+if you want to see examples for this library go to my github
+https://github.com/fred260571/KeyboardHID-examples
+
+== How to use ==
+
+This library should be used like the original Keyboard Library. KeyboardHID.write(8) will send 'e'
+
+== License ==
+
+Copyright (c) Arduino LLC. All right reserved.
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
