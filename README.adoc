@@ -1,4 +1,5 @@
 = HID Keyboard Library for Arduino =
+original location https://github.com/fred260571/KeyboardHID
 
 This library allows an Arduino board with USB capabilites to act as a USB HID Keyboard.
 
